@@ -1,0 +1,415 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+.menu-right
+{
+    
+	
+	text-align:right;
+	background-color:white;
+}
+ul{
+display:none;
+}
+ul li  	
+{
+	 display:block;
+	 margin: 17px;
+	 list-style:none;
+	 
+	 
+	 text-decoration:none;
+	 
+}
+
+ 
+a
+{
+font-family:Elephant;
+	 color:orange;
+	 text-decoration:none;
+}	 
+	 
+.nav-bar
+{
+   background:white;
+   color:white;
+   padding:20px;
+   font-family:Elephant;
+} 
+.nav-bar .fa
+{
+margin-right:10px;
+font-size:20pz;
+}
+.nav-bar img
+{
+  width:150px; 
+  height:80px;
+  float:left;
+  margin-right:20px;
+}
+a:hover{
+  text-decoration:underline;
+  background-color:#fed8b1;
+ } 
+.ytvideo
+{
+ width:1000px;
+ height:300px;
+ flex-wrap:wrap;
+ padding:40px 40px 40px 40px;
+}
+.ytdiv
+{
+background-color:orange;
+ width:1360;
+ height:380;
+}
+.thead th
+{
+ font-size:20px;
+ padding:20px 20px 20px 20px;
+ text-align:left;
+}
+.fontmarquee
+{
+  font-size:45px;
+  font-weight:bold;
+  font-variant:small-caps;
+  font-family:Bambi;
+  color:#FEBE00;
+}
+.dclogo img
+{
+ width:60px;
+ height:60px;
+ border-radius:50%;
+}
+.milogo img
+{
+ width:60px;
+ height:60px;
+ border-radius:50%;
+}
+.punlogo img
+{
+width:40px;
+ height:40px;
+ border-radius:50%;
+}
+.rcblogo img
+{
+width:40px;
+ height:40px;
+ border-radius:50%;
+}
+.kkrlogo img
+{
+width:40px;
+ height:40px;
+ border-radius:50%;
+}
+.rrlogo img
+{
+width:40px;
+ height:40px;
+ border-radius:50%;
+
+}
+.srhlogo img
+{
+width:40px;
+ height:40px;
+ border-radius:50%;
+}
+.csklogo img
+{
+width:40px;
+ height:40px;
+ border-radius:50%;
+}
+.table thead tr 
+{
+  background-color:#F6BE00;
+  color:black;
+  padding:20px 20px 20px 20px;
+  text-align:center;
+ } 
+ .table tbody tr 
+{
+  background-color:#F6BE00;
+  color:black;
+  text-align:center;
+ } 
+.table
+{
+ width:1000;
+ text-align:center;
+ flex-wrap:wrap;
+ border-spacing:0;
+ border-collapse:collapse;
+ 
+}
+tr:hover{
+transform:scale(1);
+font-weight:bold;
+font-size:25px;
+}
+
+.socialhub
+{
+height:900;
+width:100%;
+background-color:#FF8C00;
+overflow:scroll;
+}
+p
+{
+padding:0;
+margin:0;
+}
+.video1
+{
+height:150px; 
+width:300px;
+}
+.video2{
+height:150px;
+ width:300px;
+ }
+ .video3{
+ height:150px;
+ width:300px;
+ }
+ .plugin
+ {
+   position: relative;
+   
+ }
+.plugin a
+ {
+   
+   
+   background-color:white;
+   border-radius:50px;
+   color:black;
+   line-height:100px;
+   
+   padding: 10px 10px 10px 10px;
+   box-shadow: 1px 4px 3px white;
+ }
+ a i {
+   font-size:30px;
+  } 
+  a:hover i
+  {
+    transform: scale(2);
+	text-decoration:none;
+	
+	}
+.fa-instagram
+{
+  color:#e84393;
+}
+.fa-facebook
+{
+  color:#3b5998;
+}
+.fa-youtube
+{
+  color:#e84118;
+}
+.fa-twitter
+{
+  color:#0097e6
+}  
+ 
+span
+{
+margin: 0 17px;
+color:orange;
+font-size:30px;
+
+cursor:pointer;
+display:block;
+} 
+.titlesponser{
+font-family:Broadway;
+font-size:40px;
+color:orange;
+margin:0px 0px 0px 0px
+}
+.jklakshmi
+{
+padding:20px 0px 20px 0px;
+margin:0px 0px 0px 0px;
+}
+.bowlstats2
+{
+width:900px;
+background-color:orange;
+}
+.srh
+padding:20px 0px 0px 150px;
+}
+.srh1{
+overflow:hidden;
+}
+.jklakshmiimg
+{
+ width:490;
+}
+.pricipalsponser
+{
+font-family:Broadway;
+font-size:40px;
+color:orange;
+margin:0px 0px 0px 0px
+}
+.div3{
+display:flex;
+flex-direction:row;
+background-color:white;
+width:800;
+padding:0px 250px 20px 250px;
+}
+.ralco
+{
+ width:150;
+ height:150;
+ }
+ .footer
+ {
+ background-color:#DC143C; 
+ display:flex;
+ flex-direction:row;
+ width:100%; 
+ height:300;}
+ .footer1
+ {
+ padding:50px;
+ }
+ .footerlogo
+ {
+  padding:55px 0px 0px 60px;
+  width:500;
+  height:200;
+  }
+  .plugin
+  {
+   position:relative;
+   padding:80px 200px;
+   }
+
+@media only screen and (max-width:1000px)
+{
+  span
+  {
+   display:none;
+  }
+ul li {
+display:inline-block;
+}
+ul {
+  display:none;
+}
+
+img
+{
+   width:480px;
+   height:200px;
+}
+.ytvideo{
+width:450px;
+   height:200px;
+   padding: 10px 10px 10px 10px;
+}
+.video1
+{
+  width:150px;
+  height:200px;
+}
+.video2
+{
+  width:150px;
+  height:200px;
+}
+.video3  
+{
+width:150px;
+  height:200px;
+}
+.ytdiv
+{
+width:480px;
+height:230px;
+}
+div yt
+{
+  height:500px;
+}  
+
+.table
+{
+  width:100px;
+  text-align:center;
+  flex-wrap:wrap;
+  white-space: nowrap;
+  overflow:scroll;
+}
+.info{
+  padding:10px 0px 0px 10px;}
+  .titlesponser
+  {
+  margin:0px 0px 0px 0px;
+  }
+  .pricipalsponser
+  {
+  margin:0px 0px 0px 0px;
+  }
+  .jklakshmi
+{
+padding:20px 0px 20px 0px;
+margin:0px 0px 0px 90px;
+}
+.jklakshmiimg
+{
+ width:350;
+ }
+ .div3{
+display:flex;
+flex-direction:row;
+background-color:white;
+width:450;
+padding:0px 10px 20px 50px;}
+.ralco{
+width:70px;
+height:70px;}
+.footer
+{
+background-color:#DC143C; 
+display:flex;
+flex-direction:row;
+width:480; height:300;
+}
+.footer1
+{
+padding:20px  0px 0px 10px;
+}
+.footerlogo
+ {
+  padding:30px 0px 0px 20px;
+  width:150;
+  height:200;
+  }
+  .plugin
+  {
+   position:relative;
+   padding:40px 10px;
+   align-items:center;
+   }
+
+} 
